@@ -1,0 +1,105 @@
+.about {
+  padding: 60px 100px;
+  background-color: #0d0d0d;
+  color: white;
+}
+
+.about-title h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+.about-title h1 span {
+  background: linear-gradient(270deg, #DF8908, #B415FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-content {
+  display: flex;
+  gap: 60px;
+  margin-top: 60px;
+  align-items: flex-start;
+}
+
+.about-left img {
+  width: 400px;
+  border-radius: 10px;
+}
+
+.about-right p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.about-skills {
+  margin-top: 30px;
+}
+
+.skill {
+  margin-bottom: 20px;
+}
+
+.skill span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.bar {
+  height: 10px;
+  background-color: #222;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.fill {
+  height: 100%;
+  background: linear-gradient(to right, #B415FF, #DF8908);
+  border-radius: 5px;
+}
+
+.about-stats {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.skill :hover{
+    transform:scale(1.05);
+    transition:0.3s;
+}
+
+.stat:hover{
+    transform:scale(1.05);
+    transition:0.3s;
+}
+.stat h1 {
+  font-size: 40px;
+  background: linear-gradient(to right, #DF8908, #B415FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 10px;
+}
+
+.divider {
+  width: 2px;
+  height: 60px;
+  background: gray;
+}
+.mywork-more{
+  display:flex;
+  gap:15px;
+  border-radius:50px;
+  border:2px solid white;
+  padding:30px 60px;;
+  font-size:22px;
+  font-weight:500;
+  margin-button:80px;
+  transition:0.6s;
+  cursor:pointer;
+}
+mywork-more:hover{
+  gap:30px;
+  transition:0.6s;
+}
